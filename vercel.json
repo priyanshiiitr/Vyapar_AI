@@ -1,0 +1,10 @@
+{
+  "framework": "fastapi",
+  "buildCommand": "npm --prefix frontend install && npm --prefix frontend run build",
+  "functions": {
+    "server.py": {
+      "maxDuration": 300,
+      "includeFiles": "{backend/**,frontend/dist/**,data/**}"
+    }
+  }
+}

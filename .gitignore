@@ -1,0 +1,50 @@
+# Environment & secrets
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+frontend/dist/
+frontend/playwright-report/
+frontend/test-results/
+
+# Databases & local data
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/whatsapp_evidence/
+backend/data/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Build
+dist/
+build/
+.cache/
+.vercel/
+.vercel
+.env
+.env.local
+.env.*.local
+!.env.example

@@ -1,0 +1,9 @@
+backend/.env
+**/.env
+data/*.db
+**/__pycache__
+**/*.pyc
+frontend/node_modules
+backend/.pytest_cache
+**/terminals
+agent-transcripts
